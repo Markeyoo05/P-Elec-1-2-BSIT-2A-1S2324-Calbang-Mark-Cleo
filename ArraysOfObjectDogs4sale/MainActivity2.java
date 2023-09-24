@@ -1,3 +1,10 @@
+/**
+ * @home of sweet people (medellin) 
+ *  @author  : Mark Cleo Calbang
+ *            Clarence Simoran
+ *            John Richard Mepieza
+ *            Karl Noynay 
+ */
 public class MainActivity2
 {
 	public static void main(String[] args)
