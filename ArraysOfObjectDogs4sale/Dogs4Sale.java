@@ -1,3 +1,10 @@
+/**
+ * @home of sweet people (medellin) 
+ *  @author  : Mark Cleo Calbang
+ *            Clarence Simoran
+ *            John Richard Mepieza
+ *            Karl Noynay 
+ */
 public class Dogs4Sale {
     // Private attributes
     private String breed;
@@ -6,8 +13,8 @@ public class Dogs4Sale {
 
 	//default constructor 
 	Dogs4Sale(){
-		System.out.println("=================================");
-		System.out.println("OBJECTS OF DOG FOR SALE CREATED ");
+        System.out.println("=================================");
+		System.out.println("\tDogs FOR SALE");
 		System.out.println("=================================");
 	}
     // Constructor
@@ -43,11 +50,5 @@ public class Dogs4Sale {
     public String getBreed() {
         return breed;
     }
-  void DisplayInfo (){
-	   System.out.println("Name: "+getName());
-	   System.out.println("Price: " +getPrice());
-	   System.out.println("Breed: " +getBreed());
-	   System.out.println();
-  }
-
+  
 }
