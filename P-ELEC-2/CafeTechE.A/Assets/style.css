@@ -1,0 +1,300 @@
+#linebymiddle {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+.background {
+    position: relative;
+    width: 100%;
+    
+}
+#video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+li {
+    display: table-cell;
+    position: relative;
+    padding:15px 0;  
+}
+#menu a {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display:inline-block;
+    padding: 15px 20px;
+    position: relative;
+    font-size:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+#menu a:hover{
+    background-color: #96e4e4 ;
+}
+#login {
+    position: fixed;
+    left: 280px;
+  
+}
+
+.home  {
+    font-size: 15px; 
+    padding-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.15em;
+    color: white;
+}
+.box {
+    width: 50%; 
+    background-color: rgba(123, 124, 122, 0.5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto; 
+    color: #ffffffe0;
+    padding: 25px;
+    text-align: justify;
+    font-size: 22px;
+    box-shadow: 0 0 10px rgba(247, 242, 242, 1); 
+}
+#Text{
+    text-align: center;
+    font-size: 35px;
+    color: aqua;
+    -webkit-text-stroke: 0.1px #fbfdfe;
+    
+}
+footer {
+    color: white; 
+    padding-left: 20px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    bottom: 0;
+}
+/* CSS code in  this services only */
+.services-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-box {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    background-color: rgba(123, 124, 122, 0.5);
+    box-shadow: 0 0 10px rgba(247, 242, 242, 0.5); 
+    text-align: center;
+}
+.service-box h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    -webkit-text-stroke: 0.5px #ffffff;
+    margin-bottom: 10px;
+}
+.service-box p {
+    font-size: 14px;
+    color: #fefefe;
+}
+/* CSS code in  this services only ending*/
+/*css contact us code */
+.form-all {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.form-container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label,input,textarea {
+    margin-bottom: 10px;
+}
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.contact-info {
+    max-width: 300px;
+    padding-left: 100px;
+}
+
+.contact-head{ 
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fbfdfe;
+}
+
+.contact-info address {
+    margin-bottom: 20px;
+    color: #fbfdfe;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #333;
+}
+
+.form-container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+/* Additional styles for social media icon */
+.social-media {
+    margin-top: 20px;
+    color: #f9f9f9;
+}
+
+.social-icon {
+    font-family: "Segoe UI Symbol";
+    font-size: 24px;
+    text-decoration: none;
+    color: #f9f6f6;
+    margin-left: 10px;
+}
+
+.social-icon:hover {
+    color: #007bff;
+}
+/* Ending of css code in contacts*/
+/* start point css code of shop*/
+.shop-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.product-box {
+    width: 250px;
+    height: 550px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.selected{
+    text-align: left;
+}
+.product-box h3{
+    font-size: 10px;
+    text-align: justify;
+    color: #ffffff;
+    -webkit-text-stroke: 0.2px #010000;
+
+}
+.product-box img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.quantity-input {
+    width: 60px;
+    padding: 5px;
+    margin-top: 10px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.add-to-cart-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #45a049;
+}
+/* ending of shop css code */
+
+/* start css code in login and signup*/
+.input {
+    width: 100%;
+    height: 40px;
+}
+.signuplink a{
+    color: #fffdfd;
+    text-decoration: none;
+}
+.signuplink a:hover{
+    color: #b1b1b1;
+}
+.gender-selection {
+    display: flex;
+}
+
+.gender-selection label {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.small-checkbox {
+    width: 20px;
+    height: 20px;
+    
+}
+#subscribe{
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+
+
+
